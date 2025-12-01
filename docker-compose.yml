@@ -75,8 +75,6 @@ services:
       - "443:443"
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
-      - ./caddy_data:/data
-      - ./caddy_config:/config
     networks:
       private_network:
         ipv4_address: 10.2.0.10
