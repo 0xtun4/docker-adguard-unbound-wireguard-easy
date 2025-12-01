@@ -1,0 +1,12 @@
+vpn.212002.xyz {
+    reverse_proxy wg-easy:51821
+}
+
+portainer.212002.xyz {
+    reverse_proxy portainer:9443
+    tls_insecure_skip_verify
+}
+
+adguard.212002.xyz {
+    reverse_proxy adguard:3000
+}
